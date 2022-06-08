@@ -1,0 +1,82 @@
+
+#about {
+    background: url(../images/about-bg.jpg) center top no-repeat fixed;
+    background-size: cover;
+    padding: 60px 0 40px 0;
+    position: relative;
+}
+#about::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.92);
+    z-index: 9;
+}
+#about .container {
+    position: relative;
+    z-index: 10;
+}
+#about .about-img{
+    background: white;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+}
+#about .about-img .img {
+    position: relative;
+}
+#about .about-img .img {
+    border-radius: 4px 4px 0 0;
+}
+#about .about-img .icon {
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    position: absolute;
+    background-color: #18d26e;
+    border-radius: 50%;
+    border: 4px solid white;
+    left: calc(50% - 32px);
+    bottom: -30px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about .about-img span {
+    font-size: 28px;
+    line-height: 0;
+    color: white;
+    transition: 0.3s;
+}
+#about .about-img:hover .icon {
+    background-color: white;
+}
+#about .about-img:hover span {
+    color: #18d26e;
+}
+#about .about-img h2 {
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 0;
+    margin: 40px 0 12px 0;
+}
+#about .about-img h2 a {
+    color: black;
+    text-decoration: none;
+}
+#about .about-img h2 a:hover {
+    color: #18d26e;
+}
+#about .about-img p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+    margin-bottom: 0;
+    padding: 0 20px 20px 20px;
+}

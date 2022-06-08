@@ -1,0 +1,34 @@
+#feature {
+    background: #000;
+}
+#feature .box {
+    padding: 30px 20px;
+}
+#feature .box-bg {
+    padding: 30px 20px;
+    background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
+}
+#feature span {
+    color: #18d26e;
+    font-size: 48px;
+    display: inline-block;
+    line-height: 1;
+}
+#feature h4 {
+    margin: 15px 0;
+    font-size: 18px;
+    color: white;
+}
+#feature h4 a {
+    color: white;
+    text-decoration: none;
+}
+#feature h4 a:hover {
+    color: #18d26e;
+}
+#feature p {
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 0;
+}

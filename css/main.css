@@ -1,0 +1,61 @@
+/* setting */
+@import "setting.css";
+/* end setting */
+
+/* menu */
+@import "menu.css";
+/* end menu */
+
+/* home */
+@import "home.css";
+/* end home */
+
+/* feature */
+@import "feature.css";
+/* end feature */
+
+/* about */
+@import "about.css";
+/* end about */
+
+/* services */
+@import "services.css";
+/* end services */
+
+/* call */
+@import "call.css";
+/* end call */
+
+/* skills */
+@import "skills.css";
+/* end skills */
+
+/* facts */
+@import "facts.css";
+/* end facts */
+
+/* portfolio */
+@import "portfolio.css";
+/* end portfolio */
+
+/* client */
+@import "client.css";
+/* end client */
+
+/* testimonials */
+@import "testimonials.css";
+/* end testimonials */
+
+
+/* team */
+@import "team.css";
+/* end team */
+
+/* contact */
+@import "contact.css";
+/* end contact */
+
+/* footer */
+@import "footer.css";
+/* end footer */
+

@@ -1,0 +1,84 @@
+#menu .navbar{
+    background: rgba(0, 0, 0, 0.9);
+    height: 60px;
+}
+.navbar-logo{
+    font-size: 34px;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding-left: 10px;
+    border-left: 4px solid #18d26e;
+    text-decoration: none!important;
+    color: white!important;
+}
+ .navbar-nav{
+     display: flex;
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     align-items: flex-start;
+}
+
+
+.navbar-nav li a {
+     font-family: "Montserrat", sans-serif;
+     font-size: 13px;
+     font-weight: 600;
+     color: white !important;
+     text-transform: uppercase;
+     transition: 0.3s;
+    text-align: left;
+     text-decoration: none;
+     margin-right: 2px;
+ }
+
+.navbar-nav li:hover > a {
+    color: #18d26e!important;
+}
+
+.navbar-nav .dropdown .dropdown-toggle .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 14px;
+    margin: 0;
+    padding: 10px 0;
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 0 30px rgba(127, 137, 161, 0.25);
+    transition: 0.3s;
+}
+
+
+.navbar-nav .dropdown ul li{
+    min-width: 200px;
+}
+
+.navbar-nav .dropdown ul li a {
+    padding: 10px 20px;
+    text-transform: none;
+    color: gray!important;
+    text-decoration: none;
+}
+
+@media (max-width: 992px) {
+
+    .navbar-nav {
+        background-color: #ffffff;
+    }
+    .navbar-nav li a {
+        font-size: 13px;
+        font-weight: 600;
+        color: black !important;
+        margin-left: 20px;
+
+    }
+ .navbar-toggler span{
+     color: whitesmoke;
+     font-size: 28px;
+ }
+    .navbar-nav .dropdown ul li a {
+      margin-left: 0;
+    }
+}
